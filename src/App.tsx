@@ -35,7 +35,9 @@ function Calculation() {
 
   return (
     <>
-      <h1>Simple calculation webpage</h1>
+      <header className="py-5">
+        <div className="container">
+          <h1 className="py-4">Simple calculation webpage</h1>
 
       <h2>Hello, welcome to the simple calculation webpage.</h2>
 
