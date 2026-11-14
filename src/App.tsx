@@ -31,3 +31,31 @@ function Calculation() {
 
   return answer
 }
+
+  return (
+    <>
+      <h1>Simple calculation webpage</h1>
+
+      <h2>Hello, welcome to the simple calculation webpage.</h2>
+
+      <input type="number" value={num1} onChange={(e) => setNum1(Number(e.target.value))}></input>
+
+      <select value={operator} onChange={(e) => setOperator(e.target.value)}>
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+      </select>
+
+      <input type="number" value={num2} onChange={(e) => setNum2(Number(e.target.value))}></input>
+
+      <span> = </span>
+      <span>{Calculation()}</span>
+      
+    </>
+
+   
+  )
+}
+
+export default App
