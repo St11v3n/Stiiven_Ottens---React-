@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import proudKiryu from './assets/proud_kiryu.gif'
 
 function App() {
  
