@@ -43,12 +43,6 @@ function Calculation() {
 
           <h2>Lets make simple calculations great again! {":)"} </h2>
 
-      <select value={operator} onChange={(e) => setOperator(e.target.value)}>
-        <option>+</option>
-        <option>-</option>
-        <option>*</option>
-        <option>/</option>
-      </select>
 
       <input type="number" value={num2} onChange={(e) => setNum2(Number(e.target.value))}></input>
 
