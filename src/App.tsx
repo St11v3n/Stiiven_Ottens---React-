@@ -47,10 +47,23 @@ function Calculation() {
         </div>
       </header>
 
-      <input type="number" value={num2} onChange={(e) => setNum2(Number(e.target.value))}></input>
+      <main className="py-5">
+        <div className="container d-flex align-items-center justify-content-center gap-4">
+          <input  type="number" value={num1} onChange={(e) => setNum1(Number(e.target.value))}></input>
 
-      <span> = </span>
-      <span>{Calculation()}</span>
+          <select className="gap-5" value={operator} onChange={(e) => setOperator(e.target.value)}>
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+          </select>
+
+          <input  type="number" value={num2} onChange={(e) => setNum2(Number(e.target.value))}></input>
+
+          <span> = </span>
+          <span>{Calculation()}</span>
+        </div>
+      </main>
       
     </>
 
