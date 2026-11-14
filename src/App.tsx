@@ -39,9 +39,9 @@ function Calculation() {
         <div className="container">
           <h1 className="py-4">Simple calculation webpage</h1>
 
-      <h2>Hello, welcome to the simple calculation webpage.</h2>
+          <h2>Hello, welcome to the simple calculation webpage.</h2>
 
-      <input type="number" value={num1} onChange={(e) => setNum1(Number(e.target.value))}></input>
+          <h2>Lets make simple calculations great again! {":)"} </h2>
 
       <select value={operator} onChange={(e) => setOperator(e.target.value)}>
         <option>+</option>
