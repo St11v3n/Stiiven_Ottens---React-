@@ -1,0 +1,32 @@
+body {
+  background-image:url(./assets/chalkboard.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:white
+}
+
+header {
+  text-align:center
+}
+
+input {
+  background-color: transparent;
+  color:white;
+  border:none;
+  text-align:center
+}
+
+select {
+  background-color:transparent;
+  color:white;
+  border:none;
+  text-align:center
+}
+
+option {
+  background-color:black;
+  border:none;
+  color:white
+}
+
+
