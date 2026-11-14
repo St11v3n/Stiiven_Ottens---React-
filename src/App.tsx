@@ -43,6 +43,9 @@ function Calculation() {
 
           <h2>Lets make simple calculations great again! {":)"} </h2>
 
+          <img src={proudKiryu} alt="Happy Kiryu"></img>
+        </div>
+      </header>
 
       <input type="number" value={num2} onChange={(e) => setNum2(Number(e.target.value))}></input>
 
